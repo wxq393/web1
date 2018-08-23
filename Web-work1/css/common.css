@@ -1,0 +1,39 @@
+ /* reset */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;/*包含边框和内边距的宽度*/
+        }
+        a{
+            text-decoration: none;
+        }
+        ul {
+            list-style: none;
+        }
+    
+/* common css */
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .button {
+            display: inline-block;
+            font-size:18px;
+            color: #fff;
+            background-color: #f7ba3e;
+            border-radius: 4px;
+            padding: 5px 10px;
+        }
+        .button:hover{
+            opacity: 0.8;
+        }
+        .layout{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        body{
+            font: 14px/1.5"Lucida Grande";
+            background-color: #fff;
+            color: #444;
+        }
